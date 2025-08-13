@@ -61,7 +61,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="py-24 bg-gradient-to-r from-primary to-primary/80 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">About BuildCraft</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">About Wellbred Systems</h1>
           <p className="text-xl max-w-3xl mx-auto opacity-90">
             Two decades of construction excellence, building trust one project at a time.
           </p>
@@ -76,7 +76,7 @@ const About = () => {
               <h2 className="text-4xl font-bold text-primary mb-6">Our Story</h2>
               <div className="space-y-6 text-lg text-muted-foreground">
                 <p>
-                  Founded in 2004, BuildCraft Construction Company began as a small family business with a simple mission: 
+                  Founded in 2004, Wellbred Systems Construction Company began as a small family business with a simple mission: 
                   to deliver exceptional construction services with unwavering commitment to quality and customer satisfaction.
                 </p>
                 <p>

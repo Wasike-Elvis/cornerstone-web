@@ -9,13 +9,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-accent text-accent-foreground p-2 rounded-lg">
-                <span className="text-lg font-bold">BC</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">BuildCraft</h3>
-                <p className="text-sm opacity-80">Construction Co.</p>
-              </div>
+            <div className="bg-accent text-accent-foreground p-2 rounded-lg">
+              <span className="text-lg font-bold">WS</span>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Wellbred Systems</h3>
+              <p className="text-sm opacity-80">Construction Co.</p>
+            </div>
             </div>
             <p className="text-sm opacity-80">
               Building with precision and excellence for over 20 years. Your trusted partner for all construction needs.
@@ -57,15 +57,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 opacity-80" />
-                <span className="text-sm opacity-80">123 Construction Ave, City, State 12345</span>
+                <span className="text-sm opacity-80">KU Plaza Nairobi Kenya</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 opacity-80" />
-                <span className="text-sm opacity-80">(555) 123-4567</span>
+                <span className="text-sm opacity-80">+254722478519</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 opacity-80" />
-                <span className="text-sm opacity-80">info@buildcraft.com</span>
+                <span className="text-sm opacity-80">wellbredsystems@gmail.com</span>
               </div>
             </div>
 
@@ -94,7 +94,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-80">
-            © 2024 BuildCraft Construction Company. All rights reserved.
+            © 2024 Wellbred Systems Construction Company. All rights reserved.
           </p>
         </div>
       </div>

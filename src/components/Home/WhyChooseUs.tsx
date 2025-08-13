@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Why Choose BuildCraft?
+            Why Choose Wellbred Systems?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             With over two decades of experience, we combine traditional craftsmanship with modern innovation to deliver exceptional results.
@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
                 Get Free Consultation
               </button>
               <button className="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
-                Call Now: (555) 123-4567
+                Call Now: +254722478519
               </button>
             </div>
           </div>
