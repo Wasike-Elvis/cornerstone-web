@@ -94,7 +94,10 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-80">
-            © 2024 Wellbred Systems Construction Company. All rights reserved.
+            © 2025 Wellbred Systems Construction Company. All rights reserved.
+          </p>
+          <p className="text-xs opacity-60 mt-2">
+            Designed by El'series Systems
           </p>
         </div>
       </div>
