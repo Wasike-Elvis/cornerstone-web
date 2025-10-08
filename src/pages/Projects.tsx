@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Play, ExternalLink } from "lucide-react";
 import warehouse3DRender from "@/assets/warehouse-3d-render.jpg";
 import houseFaisalVideo from "@/assets/house-faisal-walkthrough.mp4";
+import stAnnesVideo from "@/assets/st-annes-walkthrough.mp4";
 
 const Projects = () => {
   const projects = [
@@ -124,14 +125,21 @@ const Projects = () => {
               </CardContent>
             </Card>
 
-            {/* Example video placeholders */}
+            {/* St Annes Sisters House Video */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="relative bg-gradient-to-br from-primary/20 to-accent/20 h-64 flex items-center justify-center">
-                <Play className="h-16 w-16 text-primary hover:scale-110 transition-transform cursor-pointer" />
+              <div className="relative bg-primary/10 h-64">
+                <video 
+                  src={stAnnesVideo}
+                  controls
+                  className="w-full h-full object-cover"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23003366' width='100' height='100'/%3E%3C/svg%3E"
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-primary mb-2">Residential Construction Process</h3>
-                <p className="text-muted-foreground">Time-lapse of our residential building process from foundation to completion.</p>
+                <h3 className="text-xl font-bold text-primary mb-2">St Annes Sisters House Walkthrough</h3>
+                <p className="text-muted-foreground">Professional walkthrough showcasing our residential construction expertise.</p>
               </CardContent>
             </Card>
 
