@@ -3,6 +3,7 @@ import Footer from "@/components/Layout/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Play, ExternalLink } from "lucide-react";
 import warehouse3DRender from "@/assets/warehouse-3d-render.jpg";
+import houseFaisalVideo from "@/assets/house-faisal-walkthrough.mp4";
 
 const Projects = () => {
   const projects = [
@@ -105,18 +106,21 @@ const Projects = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Placeholder for uploaded video */}
+            {/* Latest Project Video */}
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="relative bg-primary/10 h-64 flex items-center justify-center">
-                <div className="text-center">
-                  <Play className="h-16 w-16 text-primary mx-auto mb-4" />
-                  <p className="text-primary font-semibold">Your Video Will Appear Here</p>
-                  <p className="text-sm text-muted-foreground mt-2">Upload a video to showcase your latest project</p>
-                </div>
+              <div className="relative bg-primary/10 h-64">
+                <video 
+                  src={houseFaisalVideo}
+                  controls
+                  className="w-full h-full object-cover"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23003366' width='100' height='100'/%3E%3C/svg%3E"
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-primary mb-2">Latest Project Video</h3>
-                <p className="text-muted-foreground">Showcase your most recent construction project.</p>
+                <h3 className="text-xl font-bold text-primary mb-2">House Faisal Walkthrough</h3>
+                <p className="text-muted-foreground">Professional walkthrough of our latest residential construction project.</p>
               </CardContent>
             </Card>
 
