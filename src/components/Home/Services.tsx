@@ -5,27 +5,27 @@ const Services = () => {
   const services = [
     {
       icon: Home,
-      title: "Residential",
-      description: "Custom homes, renovations, and residential developments built to the highest standards.",
-      features: ["Custom Home Building", "Kitchen & Bath Remodeling", "Home Additions", "Interior Renovations"]
+      title: "Architectural Design",
+      description: "Innovative and culturally-inspired designs that blend modern aesthetics with African heritage.",
+      features: ["Custom Floor Plans", "3D Visualization", "Interior Design", "Landscape Planning"]
     },
     {
       icon: Building2,
-      title: "Commercial",
-      description: "Office buildings, retail spaces, and commercial developments for modern businesses.",
-      features: ["Office Buildings", "Retail Centers", "Restaurants", "Medical Facilities"]
+      title: "Construction Management",
+      description: "End-to-end project management ensuring quality, timeline, and budget compliance.",
+      features: ["Project Planning", "Quality Control", "Budget Management", "Site Supervision"]
     },
     {
       icon: Factory,
-      title: "Industrial",
-      description: "Warehouses, manufacturing facilities, and specialized industrial construction projects.",
-      features: ["Warehouses", "Manufacturing Plants", "Distribution Centers", "Industrial Complexes"]
+      title: "Sustainable Building",
+      description: "Eco-friendly construction solutions using locally-sourced materials and green technologies.",
+      features: ["Solar Integration", "Rainwater Harvesting", "Natural Ventilation", "Local Materials"]
     },
     {
       icon: Hammer,
-      title: "Renovation",
-      description: "Transform existing spaces with expert renovation and remodeling services.",
-      features: ["Building Restoration", "Space Modernization", "Structural Updates", "Energy Efficiency"]
+      title: "Renovation & Remodeling",
+      description: "Transform existing structures into beautiful, functional spaces with expert craftsmanship.",
+      features: ["Kitchen Upgrades", "Bathroom Remodeling", "Space Optimization", "Modern Finishes"]
     }
   ];
 
@@ -34,10 +34,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Our Core Services
+            Our Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From residential homes to large-scale commercial projects, we deliver exceptional construction services across all sectors.
+            Comprehensive design and construction services tailored to bring your dream home to life across Africa.
           </p>
         </div>
 

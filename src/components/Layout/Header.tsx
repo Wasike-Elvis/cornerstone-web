@@ -11,7 +11,6 @@ const Header = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Projects", href: "/projects" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -24,10 +23,10 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="bg-primary text-primary-foreground p-2 rounded-lg">
-              <span className="text-xl font-bold">WS</span>
+              <span className="text-xl font-bold">BH</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-primary">Wellbred Systems</h1>
+              <h1 className="text-xl font-bold text-primary">Beautiful House Designs For Africa</h1>
               <p className="text-xs text-muted-foreground">Construction Co.</p>
             </div>
           </Link>

@@ -10,15 +10,15 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
             <div className="bg-accent text-accent-foreground p-2 rounded-lg">
-              <span className="text-lg font-bold">WS</span>
+              <span className="text-lg font-bold">BH</span>
             </div>
             <div>
-              <h3 className="text-xl font-bold">Wellbred Systems</h3>
+              <h3 className="text-xl font-bold">Beautiful House Designs For Africa</h3>
               <p className="text-sm opacity-80">Construction Co.</p>
             </div>
             </div>
             <p className="text-sm opacity-80">
-              Building with precision and excellence for over 20 years. Your trusted partner for all construction needs.
+              Creating beautiful, sustainable homes across Africa. Your trusted partner for exceptional construction and design.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {["Home", "About", "Services", "Projects", "Contact"].map((item) => (
+              {["Home", "About", "Services", "Contact"].map((item) => (
                 <li key={item}>
                   <Link
                     to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
@@ -43,11 +43,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm opacity-80">
-              <li>Residential Construction</li>
-              <li>Commercial Building</li>
-              <li>Industrial Projects</li>
+              <li>Architectural Design</li>
+              <li>Construction Management</li>
+              <li>Sustainable Building</li>
               <li>Renovation & Remodeling</li>
-              <li>Project Management</li>
+              <li>Custom Home Building</li>
             </ul>
           </div>
 
@@ -94,7 +94,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-80">
-            © 2025 Wellbred Systems Construction Company. All rights reserved.
+            © 2025 Beautiful House Designs For Africa. All rights reserved.
           </p>
           <p className="text-xs opacity-60 mt-2">
             Designed by El'series Systems
