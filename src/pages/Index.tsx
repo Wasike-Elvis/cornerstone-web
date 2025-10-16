@@ -6,6 +6,7 @@ import warehouse3DRender from "@/assets/warehouse-3d-render.jpg";
 import houseFaisalVideo from "@/assets/house-faisal-walkthrough.mp4";
 import stAnnesVideo from "@/assets/st-annes-walkthrough.mp4";
 import senajiVideo from "@/assets/senaji-flythrough.mp4";
+import hyraxVideo from "@/assets/hyrax-family-meeting.mp4";
 
 const Index = () => {
   const projects = [
@@ -158,6 +159,23 @@ const Index = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-primary mb-2">Senaji Commercial Flythrough</h3>
                 <p className="text-muted-foreground">Professional flythrough showcasing our commercial construction expertise.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="relative bg-primary/10 h-64">
+                <video 
+                  src={hyraxVideo}
+                  controls
+                  className="w-full h-full object-cover"
+                  poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23003366' width='100' height='100'/%3E%3C/svg%3E"
+                >
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-primary mb-2">Hyrax Family Meeting Joint</h3>
+                <p className="text-muted-foreground">Professional showcase of our residential project construction quality.</p>
               </CardContent>
             </Card>
           </div>

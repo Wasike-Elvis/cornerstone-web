@@ -14,7 +14,6 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold">Beautiful House Designs For Africa</h3>
-              <p className="text-sm opacity-80">Construction Co.</p>
             </div>
             </div>
             <p className="text-sm opacity-80">
